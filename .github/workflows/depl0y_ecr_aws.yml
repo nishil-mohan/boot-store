@@ -25,7 +25,7 @@
 
 on:
   release:
-    types: [push]
+    types: [workflow_dispatch]
 
 name: Deploy to Amazon ECS
 
